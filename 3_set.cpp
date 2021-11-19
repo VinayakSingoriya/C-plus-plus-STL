@@ -1,5 +1,6 @@
 #include<iostream>
 #include<set>
+#include<array>
 using namespace std;
 
 //Declaration and initialization of set
@@ -53,6 +54,20 @@ using namespace std;
 //     first.clear();
 //     cout<<"clearing the content ..."<<endl;
 //     for (auto it : first){
+//         cout<<it<<" ";
+//     }
+// }
+
+// ------------------------------------------------------------------------------------
+// set from array
+
+// int main(){
+//     set<int> mySet;
+//     int arr[] = {1,2,5,5,1,6,10,2,3,6};
+//     for(int i=0; i<(sizeof(arr)/sizeof(int)); i++){
+//         mySet.insert(arr[i]);
+//     }
+//     for(int it : mySet){
 //         cout<<it<<" ";
 //     }
 // }
