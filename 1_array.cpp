@@ -105,14 +105,14 @@ using namespace std;
 // --------------------------------------------------------
 
 // swap
-// int main(){
-//     array<int , 5> arr_1 = {1,2,3,4,5};
-//     array<int,  5> arr_2 = {6,7,8,9,10};
-//     arr_1.swap(arr_2);
-//     for(int i : arr_1) cout<<" "<<i;  
-//     cout<<endl;
-//     for(int j : arr_2) cout<<" "<<j;  
-//     return 0;
+int main(){
+    array<int , 5> arr_1 = {1,2,3,4,5};
+    array<int,  5> arr_2 = {6,7,8,9,10};
+    arr_1.swap(arr_2);
+    for(int i : arr_1) cout<<" "<<i;  
+    cout<<endl;
+    for(int j : arr_2) cout<<" "<<j;  
+    return 0;
 
-// }
+}
 

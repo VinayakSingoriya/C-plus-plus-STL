@@ -59,15 +59,15 @@ using namespace std;
 // }
 
 // ------------------------------------------------------------------------------------
-// set from array
+set from array
 
-// int main(){
-//     set<int> mySet;
-//     int arr[] = {1,2,5,5,1,6,10,2,3,6};
-//     for(int i=0; i<(sizeof(arr)/sizeof(int)); i++){
-//         mySet.insert(arr[i]);
-//     }
-//     for(int it : mySet){
-//         cout<<it<<" ";
-//     }
-// }
+int main(){
+    set<int> mySet;
+    int arr[] = {1,2,5,5,1,6,10,2,3,6};
+    for(int i=0; i<(sizeof(arr)/sizeof(int)); i++){
+        mySet.insert(arr[i]);
+    }
+    for(int it : mySet){
+        cout<<it<<" ";
+    }
+}
